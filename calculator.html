@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Form validation using HTML and JavaScript
+    </title>
+</head>
+ 
+<body>
+    <h1 style="text-align: center;">
+        REGISTRATION FORM
+    </h1>
+    <form name="RegForm" onsubmit="return GEEKFORGEEKS()"
+          method="post">
+        <p>
+            Name:
+            <input type="text" size="65" name="Name" />
+        </p>
+        <br />
+        <p>
+            
+            E-mail Address:
+            <input type="text" size="65" name="Email ID" />
+        </p>
+        <br />
+        <p>
+            Phone Number:
+            <input type="text" size="65" name="Phone Number" />
+        </p>
+        <br />
+       	<input type="password" placeholder="Password" name="password" id='password1' required>
+        <input type="password" placeholder="Confirm Password" name="confirm_password" id="password2" required> 
+
+
+
+
+
+        <p>
+            <input type="submit" value="send" name="Submit" />
+            <input type="reset" value="Reset" name="Reset" />
+        </p>
+    </form>
+</body>
+</html>
